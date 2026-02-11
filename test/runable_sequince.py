@@ -24,3 +24,4 @@ chain = RunnableSequence(prompt, model, parser,prompt2,model,parser)
 response = chain.invoke({"topic": "machine learning"})
 print(response)
 
+
