@@ -3,6 +3,7 @@ print("learn gen ai with langchain")
 
 from langchain_groq import ChatGroq
 from dotenv import load_dotenv
+
 load_dotenv()
 from langchain_core.messages import HumanMessage
 
